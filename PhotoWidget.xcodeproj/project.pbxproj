@@ -11,7 +11,40 @@
 		3849974E28B65714002A2D91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3849974D28B65714002A2D91 /* ContentView.swift */; };
 		3849975028B65716002A2D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3849974F28B65716002A2D91 /* Assets.xcassets */; };
 		3849975328B65716002A2D91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3849975228B65716002A2D91 /* Preview Assets.xcassets */; };
+		3849975B28B65816002A2D91 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3849975A28B65816002A2D91 /* Helper.swift */; };
+		3849975D28B65872002A2D91 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3849975C28B65872002A2D91 /* ImagePicker.swift */; };
+		3849975F28B658E1002A2D91 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3849975E28B658E1002A2D91 /* ImageManager.swift */; };
+		3849976728B65E16002A2D91 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3849976628B65E16002A2D91 /* WidgetKit.framework */; };
+		3849976928B65E16002A2D91 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3849976828B65E16002A2D91 /* SwiftUI.framework */; };
+		3849976C28B65E16002A2D91 /* Photo_Widget_Extension_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3849976B28B65E16002A2D91 /* Photo_Widget_Extension_.swift */; };
+		3849976E28B65E17002A2D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3849976D28B65E17002A2D91 /* Assets.xcassets */; };
+		3849977228B65E17002A2D91 /* Photo-Widget-Extension$Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3849976428B65E16002A2D91 /* Photo-Widget-Extension$Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3849977828B65E58002A2D91 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3849975A28B65816002A2D91 /* Helper.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3849977028B65E17002A2D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3849974028B65714002A2D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3849976328B65E16002A2D91;
+			remoteInfo = "Photo-Widget-Extension$Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3849977628B65E17002A2D91 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3849977228B65E17002A2D91 /* Photo-Widget-Extension$Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3849974828B65714002A2D91 /* PhotoWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +52,17 @@
 		3849974D28B65714002A2D91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3849974F28B65716002A2D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3849975228B65716002A2D91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3849975928B65772002A2D91 /* PhotoWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoWidget.entitlements; sourceTree = "<group>"; };
+		3849975A28B65816002A2D91 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3849975C28B65872002A2D91 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3849975E28B658E1002A2D91 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		3849976428B65E16002A2D91 /* Photo-Widget-Extension$Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Photo-Widget-Extension$Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3849976628B65E16002A2D91 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3849976828B65E16002A2D91 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3849976B28B65E16002A2D91 /* Photo_Widget_Extension_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Widget_Extension_.swift; sourceTree = "<group>"; };
+		3849976D28B65E17002A2D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3849976F28B65E17002A2D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3849977728B65E37002A2D91 /* Photo-Widget-Extension$Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Photo-Widget-Extension$Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +73,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3849976128B65E16002A2D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3849976928B65E16002A2D91 /* SwiftUI.framework in Frameworks */,
+				3849976728B65E16002A2D91 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3849973F28B65714002A2D91 = {
 			isa = PBXGroup;
 			children = (
+				3849977728B65E37002A2D91 /* Photo-Widget-Extension$Extension.entitlements */,
 				3849974A28B65714002A2D91 /* PhotoWidget */,
+				3849976A28B65E16002A2D91 /* Photo-Widget-Extension$ */,
+				3849976528B65E16002A2D91 /* Frameworks */,
 				3849974928B65714002A2D91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3849974828B65714002A2D91 /* PhotoWidget.app */,
+				3849976428B65E16002A2D91 /* Photo-Widget-Extension$Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +108,14 @@
 		3849974A28B65714002A2D91 /* PhotoWidget */ = {
 			isa = PBXGroup;
 			children = (
+				3849975928B65772002A2D91 /* PhotoWidget.entitlements */,
 				3849974B28B65714002A2D91 /* PhotoWidgetApp.swift */,
 				3849974D28B65714002A2D91 /* ContentView.swift */,
 				3849974F28B65716002A2D91 /* Assets.xcassets */,
 				3849975128B65716002A2D91 /* Preview Content */,
+				3849975A28B65816002A2D91 /* Helper.swift */,
+				3849975C28B65872002A2D91 /* ImagePicker.swift */,
+				3849975E28B658E1002A2D91 /* ImageManager.swift */,
 			);
 			path = PhotoWidget;
 			sourceTree = "<group>";
@@ -67,6 +128,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3849976528B65E16002A2D91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3849976628B65E16002A2D91 /* WidgetKit.framework */,
+				3849976828B65E16002A2D91 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3849976A28B65E16002A2D91 /* Photo-Widget-Extension$ */ = {
+			isa = PBXGroup;
+			children = (
+				3849976B28B65E16002A2D91 /* Photo_Widget_Extension_.swift */,
+				3849976D28B65E17002A2D91 /* Assets.xcassets */,
+				3849976F28B65E17002A2D91 /* Info.plist */,
+			);
+			path = "Photo-Widget-Extension$";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +157,34 @@
 				3849974428B65714002A2D91 /* Sources */,
 				3849974528B65714002A2D91 /* Frameworks */,
 				3849974628B65714002A2D91 /* Resources */,
+				3849977628B65E17002A2D91 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3849977128B65E17002A2D91 /* PBXTargetDependency */,
 			);
 			name = PhotoWidget;
 			productName = PhotoWidget;
 			productReference = 3849974828B65714002A2D91 /* PhotoWidget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3849976328B65E16002A2D91 /* Photo-Widget-Extension$Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3849977328B65E17002A2D91 /* Build configuration list for PBXNativeTarget "Photo-Widget-Extension$Extension" */;
+			buildPhases = (
+				3849976028B65E16002A2D91 /* Sources */,
+				3849976128B65E16002A2D91 /* Frameworks */,
+				3849976228B65E16002A2D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo-Widget-Extension$Extension";
+			productName = "Photo-Widget-Extension$Extension";
+			productReference = 3849976428B65E16002A2D91 /* Photo-Widget-Extension$Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +197,9 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					3849974728B65714002A2D91 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3849976328B65E16002A2D91 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -116,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				3849974728B65714002A2D91 /* PhotoWidget */,
+				3849976328B65E16002A2D91 /* Photo-Widget-Extension$Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +233,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3849976228B65E16002A2D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3849976E28B65E17002A2D91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +249,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				3849974E28B65714002A2D91 /* ContentView.swift in Sources */,
+				3849975F28B658E1002A2D91 /* ImageManager.swift in Sources */,
+				3849975D28B65872002A2D91 /* ImagePicker.swift in Sources */,
 				3849974C28B65714002A2D91 /* PhotoWidgetApp.swift in Sources */,
+				3849975B28B65816002A2D91 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3849976028B65E16002A2D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3849976C28B65E16002A2D91 /* Photo_Widget_Extension_.swift in Sources */,
+				3849977828B65E58002A2D91 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3849977128B65E17002A2D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3849976328B65E16002A2D91 /* Photo-Widget-Extension$Extension */;
+			targetProxy = 3849977028B65E17002A2D91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3849975428B65716002A2D91 /* Debug */ = {
@@ -262,14 +393,17 @@
 		3849975728B65716002A2D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhotoWidget/PhotoWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoWidget/Preview Content\"";
 				DEVELOPMENT_TEAM = 9D4M2F3H7Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App needs to access Photo Libray";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -291,14 +425,17 @@
 		3849975828B65716002A2D91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhotoWidget/PhotoWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoWidget/Preview Content\"";
 				DEVELOPMENT_TEAM = 9D4M2F3H7Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App needs to access Photo Libray";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +448,62 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.developer.fortesting.PhotoWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3849977428B65E17002A2D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Photo-Widget-Extension$Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D4M2F3H7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo-Widget-Extension$/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Photo-Widget-Extension$";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.fortesting.PhotoWidget.Photo-Widget-Extension-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3849977528B65E17002A2D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Photo-Widget-Extension$Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D4M2F3H7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo-Widget-Extension$/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Photo-Widget-Extension$";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.fortesting.PhotoWidget.Photo-Widget-Extension-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +527,15 @@
 			buildConfigurations = (
 				3849975728B65716002A2D91 /* Debug */,
 				3849975828B65716002A2D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3849977328B65E17002A2D91 /* Build configuration list for PBXNativeTarget "Photo-Widget-Extension$Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3849977428B65E17002A2D91 /* Debug */,
+				3849977528B65E17002A2D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
